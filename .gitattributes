@@ -1,2 +1,29 @@
-# Auto detect text files and perform LF normalization
+# Ensure line endings are normalized for all text files
+* text=auto
+
+# Mark Jupyter notebooks as binary to avoid line ending issues
+*.ipynb binary
+
+# Mark images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Mark CSV, TSV, and dataset files as text
+*.csv text
+*.tsv text
+
+# Markdown files
+*.md text
+
+# Python files
+*.py text
+
+# Ignore large dataset files from diff
+*.h5 binary
+*.pkl binary
+
+# Force LF line endings on Unix-like systems
+*.sh text eol=lf# Auto detect text files and perform LF normalization
 * text=auto
