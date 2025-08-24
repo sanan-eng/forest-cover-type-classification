@@ -1,0 +1,2 @@
+# forest-cover-type-classification
+Predict the forest cover type using cartographic and environmental features from the UCI Covertype dataset. Tree-based models like Decision Tree, Random Forest, and XGBoost are trained and evaluated using accuracy, F1-score, and confusion matrices. Feature importance is visualized to identify the most influential factors. This project demonstrates multi-class classification, model tuning, and feature analysis on a real-world environmental dataset.
